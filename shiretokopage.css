@@ -1,0 +1,403 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000;
+  font-style:italic;
+   font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+
+
+/*ここから*/
+body{
+  margin:0;
+  font-family:"游ゴシック";
+}
+
+nav{
+  float:right;
+  padding:35px 50px 0 0;
+}
+
+nav ul li{
+  float: left;
+  padding-left:58px;
+  transition: all 0.5s;
+}
+
+nav ul li :hover{
+  opacity: 0.8;
+}
+
+.clearfix{
+  clear:both;
+}
+
+.top-wrapper{
+  width:100%;
+  height:900px;
+    /* ↑本当はautoにしたいけど、上手くいかないから高さ指定した */
+  background-size: cover;
+  background-image: url(images/shiretoko-mainbg.jpg);
+  position: relative;
+}
+
+
+/*タイトルの3行　これでいいのかわからない
+    上下中央寄せあとで*/
+div#page-title{
+  width:414px;
+  height:178px;
+  position: absolute;
+  top: 400px ;
+  left: 753px;
+  color: white;
+  text-align: center;
+  }
+
+p#day{
+  font-size:35px;
+  line-height: 50px;
+  text-align: center;
+}
+
+div#page-title h1{
+  font-size:66px;
+  line-height: 90px;
+  text-align: center;
+  font-weight: 500;
+}
+
+p#japanese {
+  font-size:31px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.map{
+  padding-top: 180px;
+  text-align: center;
+}
+
+
+
+.main-wrapper{
+  width: 1520px;
+  margin: 0 200px;
+}
+
+.waterfall{
+  width:100%;
+  height:auto;
+    /* ↑あとでautoに */
+  margin-top:250px;
+}
+
+.waterfall-left{
+  float: left;
+}
+
+.waterfall h2{
+  font-size:65px;
+  font-weight: 500;
+  padding: 0 0 0 120px ;
+}
+
+.waterfall-conents{
+  padding:40px 0 0 120px;
+}
+
+img#waterfall1{
+  padding-top:120px;
+}
+
+.waterfall-right{
+  float: right;
+}
+
+img#waterfall2{
+  padding-top:50px;
+}
+
+
+p.message{
+  margin-top:70px;
+  font-family: "游明朝";
+  font-size: 20px;
+  line-height: 40px;
+  padding-left:10px;
+}
+
+p#pin{
+  display: inline-block;
+  margin-top:70px;
+  background:url(images/icon-pin.png) no-repeat;
+  height:56px;
+  margin-left: 1px;
+  padding-left:55px;
+  padding-right:30px;
+  line-height: 56px;
+  text-decoration: none;
+  color: #3C3C3C;
+}
+
+p#car{
+  display: inline-block;
+  margin-top:13px;
+  background:url(images/icon-car.png) no-repeat;
+  height:37px;
+  padding-left:45px;
+  line-height: 37px;
+  text-decoration: none;
+  color: #3C3C3C;
+}
+
+
+.nationalpark{
+  width:100%;
+  height:auto;
+    /* ↑あとでautoに */
+  margin-top:250px;
+}
+
+.nationalpark-left{
+  float: left;
+}
+
+.nationalpark h2{
+  font-size:65px;
+  font-weight: 500;
+  padding: 90px 0 0 250px ;
+}
+
+img#nationalpark1{
+  padding-top:180px;
+}
+
+.nationalpark-right{
+  float: right;
+}
+
+img#nationalpark2{
+  padding-top:165px;
+}
+
+.nationalpark-conents{
+  padding:50px 0 0 75px;
+}
+
+
+.lunchtime{
+  width:100%;
+  height:auto;
+    /* ↑あとでautoに */
+  margin-top:250px;
+}
+
+.lunchtime-left{
+  float: left;
+}
+
+.lunchtime h2{
+  font-size:65px;
+  font-weight: 500;
+  padding: 40px 0 0 130px ;
+}
+
+img#lunchtime1{
+  padding-top:130px;
+}
+
+.lunchtime-right{
+  float: right;
+}
+
+img#lunchtime2{
+}
+
+.lunchtime-conents{
+  padding:50px 0 0 150px;
+}
+
+
+.lodgestay{
+  width:100%;
+  height:auto;
+    /* ↑あとでautoに */
+  margin-top:250px;
+}
+
+.lodgestay-left{
+  float: left;
+}
+
+.lodgestay h2{
+  font-size:65px;
+  font-weight: 500;
+  padding: 85px 0 0 130px ;
+}
+
+img#lodgestay1{
+  padding-top:100px;
+}
+
+.lodgestay-right{
+  float: right;
+}
+
+img#lodgestay2{
+}
+
+.lodgestay-conents{
+  padding:50px 0 0 110px;
+}
+
+
+.button-wrapper{
+  width:100%;
+  height:267px;
+  margin-top:270px
+}
+
+.button-wrapper li{
+  width:20%;
+  height: 267px;
+  float: left;
+  list-style: none;
+}
+
+.button-wrapper li a{
+  height: 267px;
+  text-decoration: none;
+  display: block;
+  transition: all 0.5s;
+}
+
+.button-wrapper li a:hover{
+  background-color: black;
+  opacity: 0.8;
+}
+
+a#btn-furano{
+  background:url(images/icon-furano.png);
+}
+
+a#btn-biei{
+  background:url(images/icon-biei.png);
+}
+
+a#btn-shiretoko{
+  background:url(images/icon-shiretoko.png);
+}
+
+a#btn-kushiro{
+  background:url(images/icon-kushiro.png);
+}
+
+a#btn-obihiro{
+  background:url(images/icon-obihiro.png);
+}
+
+
+
+footer{
+  width:100%;
+  height:50px;
+  background-color: #C5C5C5;
+  margin-top:100px
+}
