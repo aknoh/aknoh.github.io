@@ -221,7 +221,7 @@ p.message{
 p#pin{
   display: inline-block;
   margin-top:70px;
-  background:url(images/icon-pin.png) no-repeat;
+  background:url(https://github.com/aknoh/aknoh.github.io/blob/master/icon-pin.png?raw=true) no-repeat;
   height:56px;
   margin-left: 1px;
   padding-left:55px;
@@ -234,7 +234,7 @@ p#pin{
 p#car{
   display: inline-block;
   margin-top:13px;
-  background:url(images/icon-car.png) no-repeat;
+  background:url(https://github.com/aknoh/aknoh.github.io/blob/master/icon-car.png?raw=true) no-repeat;
   height:37px;
   padding-left:45px;
   line-height: 37px;
