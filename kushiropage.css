@@ -371,5 +371,16 @@ a#btn-obihiro{
 
 
 footer{
- 
+  width:100%;
+  height:110px;
+  background-color:;
+  margin-top:120px;
+}
+
+#logo-bottom img{
+  width:185px;
+  height:65px;
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto;
 }
