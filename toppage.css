@@ -1,0 +1,242 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000;
+  font-style:italic;
+   font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+
+body{
+  margin:0;
+  font-family:"游明朝";
+}
+
+header h1{
+  float: left;
+  padding:40px 0 0 70px;
+}
+
+nav{
+  float:right;
+  padding:35px 50px 0 0;
+}
+
+nav ul li{
+  float: left;
+  padding-left:58px;
+  transition: all 0.5s;
+}
+
+nav ul li :hover{
+  opacity: 0.8;
+}
+
+.clearfix{
+  clear:both;
+}
+
+.top-wrapper{
+  width:100%;
+  height:900px;
+    /* ↑本当はautoにしたいけど、上手くいかないから高さ指定した */
+  background-size: cover;
+  background-image: url(https://github.com/aknoh/aknoh.github.io/blob/master/main-bg.jpg?raw=true);
+  position: relative;
+}
+
+
+/*タイトルの3行　これでいいのかわからない
+    上下中央寄せあとで*/
+div#page-title{
+  width:320px;
+  height:178px;
+  position: absolute;
+  top: 350px ;
+  left: 790px;
+  color: white;
+  }
+
+p#japanese{
+  font-size:21px;
+  line-height: 50px;
+  text-align: center;
+}
+
+div#page-title h1{
+  font-size:60px;
+  line-height: 70px;
+  text-align: center;
+  font-weight: 400;
+  font-family:"游ゴシック";
+  letter-spacing:2px;
+}
+
+p#subtitle {
+  font-size:22px;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+
+.message-wrapper{
+  padding:150px 0 150px 0;
+  text-align:center;
+  line-height:48px;
+  font-size:20px;
+  letter-spacing:1.2px;
+}
+
+.map{
+  padding-top: 70px;
+  text-align: center;
+}
+
+.map h2{
+  font-size:45px;
+  font-weight:400;
+  padding-bottom: 100px;
+}
+
+
+.button-wrapper{
+  width:100%;
+  height:267px;
+  margin-top:230px;
+  margin-bottom: 150px;
+}
+
+.button-wrapper li{
+  width:20%;
+  height: 267px;
+  float: left;
+  list-style: none;
+}
+
+.button-wrapper li a{
+  height: 267px;
+  text-decoration: none;
+  display: block;
+  transition: all 0.5s;
+}
+
+.button-wrapper li a:hover{
+  background-color: black;
+  opacity: 0.8;
+}
+
+a#btn-furano{
+  background:url(images/icon-furano.png) no-repeat;
+}
+
+a#btn-biei{
+  background:url(images/icon-biei.png) no-repeat;
+}
+
+a#btn-shiretoko{
+  background:url(images/icon-shiretoko.png) no-repeat;
+}
+
+a#btn-kushiro{
+  background:url(images/icon-kushiro.png) no-repeat;
+}
+
+a#btn-obihiro{
+  background:url(images/icon-obihiro.png) no-repeat;
+}
