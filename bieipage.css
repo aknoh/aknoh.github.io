@@ -109,6 +109,11 @@ body{
   font-family:"游ゴシック";
 }
 
+header h1{
+  float: left;
+  padding:40px 0 0 70px;
+}
+
 nav{
   float:right;
   padding:35px 50px 0 0;
@@ -144,30 +149,31 @@ div#page-title{
   width:297px;
   height:178px;
   position: absolute;
-  top: 400px ;
+  top: 380px ;
   left: 810px;
   color: white;
   }
 
 p#day{
-  font-size:35px;
-  line-height: 50px;
+  font-size:27px;
+  line-height: 40px;
   text-align: center;
+  font-weight: 500;
 }
 
 div#page-title h1{
   font-size:66px;
   line-height: 90px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 p#japanese {
-  font-size:31px;
-  line-height: 40px;
+  font-size:23px;
+  line-height: 20px;
   text-align: center;
+  font-family: "游明朝";
 }
-
 .map{
   padding-top: 180px;
   text-align: center;
@@ -391,8 +397,5 @@ a#btn-obihiro{
 
 
 footer{
-  width:100%;
-  height:50px;
-  background-color: #C5C5C5;
-  margin-top:100px
+
 }
